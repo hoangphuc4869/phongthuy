@@ -9,5 +9,6 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  speed: 1200,
+  speed: 900,
+  fadeEffect: { crossFade: true },
 });
