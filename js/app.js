@@ -13,6 +13,35 @@ var swiper = new Swiper(".mySwiper", {
   fadeEffect: { crossFade: true },
 });
 
+var swiper = new Swiper(".Swiper_perView", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiper = new Swiper(".swiper_freemode", {
+  slidesPerView: "auto",
+  spaceBetween: 30,
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  allowSlidePrev: true,
+  allowSlideNext: true,
+});
+
 //share btn
 
 const link = encodeURI(window.location.href);
