@@ -105,7 +105,7 @@ section {
   display: block;
 }
 body {
-  line-height: 0;
+  line-height: normal;
 }
 ol,
 ul {
@@ -1116,7 +1116,142 @@ i:hover .fa-facebook-f::before,
 .Swiper_perView .swiper-pagination-bullet {
   background-color: #fedc92;
 }
+.block1 img,
+.block2 img {
+  width: 100%;
+}
 
+.mobile-bg {
+  display: none;
+}
+.block1 {
+  position: relative;
+}
+.daivd-goh {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.block1-info > p:first-child {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.block1-info span {
+  font-size: 30px;
+}
+.block1-info .name {
+  font-size: 24px;
+  margin-top: 30px;
+}
+.block1 .block-des {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.block2 {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: none;
+}
+.block-title {
+  text-transform: uppercase;
+  color: #d99706;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.block2-content p {
+  color: #fff;
+  line-height: 1.5;
+}
+
+.block2_ {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.block-img {
+  display: none;
+}
+
+.block-des {
+  line-height: 1.5;
+}
+.b1-cus {
+  line-height: 0;
+}
+.industry {
+  padding: 50px 0;
+}
+.industry-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #d99706;
+  margin-bottom: 20px;
+}
+.industry p {
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+
+.intro-wrap {
+  background: #000;
+  padding: 100px 0;
+}
+
+.brand {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tes-img img {
+  width: 100%;
+}
+
+.tes-name {
+  color: #d99706;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* .tes-name::before {
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  
+  color: #d99706;
+} */
+
+.tes-review {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.more-rev {
+  /* width: fit-content; */
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+.more-rev a {
+  width: fit-content;
+  background-color: #d99706;
+  text-transform: capitalize;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.quote-bf-name {
+  color: #d99706;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
 @media (max-width: 1199px) {
   .right-item-img img {
     height: 133px;
