@@ -16,6 +16,7 @@ var swiper = new Swiper(".mySwiper", {
 var swiper = new Swiper(".Swiper_perView", {
   slidesPerView: 4,
   spaceBetween: 30,
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -30,16 +31,32 @@ var swiper = new Swiper(".swiper_freemode", {
   slidesPerView: "auto",
   spaceBetween: 30,
   freeMode: true,
+  // pagination: {
+  //   el: ".swiper-pagination-1",
+  //   clickable: true,
+  // },
+  // navigation: {
+  //   nextEl: ".swiper-button-next-1",
+  //   prevEl: ".swiper-button-prev-1",
+  // },
+});
+
+var swiper = new Swiper(".storiesSlider", {
+  navigation: {
+    nextEl: ".swiper-button-next-stories",
+    prevEl: ".swiper-button-prev-stories",
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+});
+
+var swiper = new Swiper(".artSlider", {
+  pagination: {
+    el: ".swiper-pagination-art",
+    clickable: true,
   },
-  allowSlidePrev: true,
-  allowSlideNext: true,
 });
 
 //share btn
