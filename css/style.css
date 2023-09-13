@@ -1694,6 +1694,50 @@ i:hover .fa-facebook-f::before,
   color: #fff;
 }
 
+.c-u-s-left-title {
+  color: #d99706;
+  font-size: 40px;
+}
+.c-u-s-left-text {
+  color: #fff;
+}
+
+.service-type {
+  margin-bottom: 24px;
+}
+
+.service-type img {
+  transition: 0.7s ease;
+  overflow: hidden;
+}
+
+.service-type:hover img {
+  transform: scale(1.1);
+}
+
+.s-t-title {
+  color: #d99706;
+  padding: 15px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 1px solid #515050;
+}
+.s-t-des {
+  color: #fff;
+  font-size: 14px;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.services {
+  margin-top: 50px;
+}
+
 @media (max-width: 1199px) {
   .right-item-img img {
     height: 133px;
