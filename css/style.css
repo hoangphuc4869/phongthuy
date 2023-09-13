@@ -1261,23 +1261,28 @@ i:hover .fa-facebook-f::before,
   margin-bottom: 50px;
 }
 .read-more-btn {
-  margin-top: 50px;
-}
-.read-more-btn a {
-  color: #fedc92;
+  margin-top: 40px;
   padding: 10px 20px;
   background-color: none;
   border: 1px solid #d99706;
-  margin-top: 50px;
   border-radius: 5px;
+  width: fit-content;
   transition: 0.5s ease;
 }
+.read-more-btn a {
+  color: #fedc92;
 
-.read-more-btn:hover a {
+  margin-top: 50px;
+}
+
+.read-more-btn:hover {
   color: white;
-  padding: 10px 20px;
+
   background-color: #d99706;
   /* border: 1px solid #d99706; */
+}
+.read-more-btn:hover a {
+  color: #000;
 }
 .video_heading {
   position: relative;
@@ -1363,26 +1368,47 @@ i:hover .fa-facebook-f::before,
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 100px;
+}
+.btn1 {
+  padding: 15px 30px;
+  background-color: #d99706;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 30px;
+  transition: 0.5s ease;
+}
+.btn1:hover {
+  transform: scale(0.9);
 }
 .btn1 a {
   color: #000;
   text-transform: capitalize;
-  padding: 15px 30px;
-  background-color: #d99706;
-  border-radius: 5px;
-  margin-right: 30px;
+
   font-weight: 600;
 }
 .btn2 a {
   color: #fff;
   text-transform: capitalize;
+
+  font-weight: 600;
+}
+.btn2 {
   padding: 15px 30px;
   border: 1px solid #d99706;
   border-radius: 5px;
-  font-weight: 600;
+  transition: 0.5s ease;
 }
-
-.block1-home {
+.btn2:hover {
+  transform: scale(0.9);
+  background: #fff;
+  border: none;
+  color: #000;
+}
+.btn2:hover a {
+  color: #000;
+}
+.btn2 .block1-home {
   margin-top: 100px;
 }
 .david-group {
@@ -1436,8 +1462,12 @@ i:hover .fa-facebook-f::before,
 .collection > p:not(:first-child) {
   color: #fff;
 }
-.browse-btn {
+.collection .browse-btn {
   margin-top: 50px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 .browse-btn a {
   margin-right: 0;
@@ -1505,9 +1535,17 @@ i:hover .fa-facebook-f::before,
   font-size: 30px;
   /* font-weight: bold; */
   margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 .article-text {
   color: #fff;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
 }
 .right-art {
   padding: 40px;
@@ -1546,6 +1584,116 @@ i:hover .fa-facebook-f::before,
   left: 50%;
   transform: translateX(-50%);
 }
+.f-c-title {
+  color: #d99706;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.sign-up {
+  margin-top: 100px;
+}
+.free-consult p {
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.free-consult ol {
+  list-style-position: inside;
+  list-style-type: decimal;
+  color: #d99706;
+}
+.free-consult ol li {
+  color: #fff;
+  margin-top: 20px;
+}
+.whatApps {
+  width: 100%;
+  background-color: #252525;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+.whatApps p {
+  color: #d99706;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.whatApps span {
+  color: rgb(2, 223, 149);
+}
+
+.whatApps-btn {
+  padding: 10px 20px;
+  background-color: #d99706;
+  color: #000;
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.whatApps-btn i {
+  color: rgb(2, 76, 2);
+  font-size: 30px;
+  margin-right: 10px;
+}
+.note {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 40px;
+}
+.FAQs {
+  margin-top: 100px;
+}
+.FAQ-title {
+  color: #d99706;
+  font-size: 30px;
+  /* font-weight: bold */
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.FAQ {
+  background: #252525;
+  padding: 50px 100px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.FAQ .question {
+  color: #d99706;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.FAQ .answer {
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.FAQ a {
+  background-color: #d99706;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  transition: 0.7s ease;
+}
+.discover-block .browse-btn {
+  width: fit-content;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.dis-mobile {
+  display: none;
+}
+.FAQ a:hover {
+  color: #fff;
+}
+.whatApps-btn a {
+  transition: 0.5s ease;
+}
+.whatApps-btn:hover a {
+  color: #fff;
+}
+
 @media (max-width: 1199px) {
   .right-item-img img {
     height: 133px;
@@ -1778,6 +1926,132 @@ i:hover .fa-facebook-f::before,
   .custom-wrap {
     padding-top: 0;
   }
+  .prospering-title p:first-child {
+    font-size: 30px;
+  }
+  .prospering-title p:last-child {
+    font-size: 20px;
+  }
+  .prospering-text {
+    width: 100%;
+  }
+
+  .btn1 {
+    margin-right: 0;
+  }
+  .david-group {
+    margin-top: 30px;
+  }
+  .david-group p {
+    color: #fff;
+  }
+  .david-group .name {
+    text-align: left;
+  }
+  .david-home .block-des {
+    margin-top: 30px;
+  }
+  .understanding {
+    margin-top: 100px;
+  }
+  .understanding-title {
+    text-align: center;
+  }
+  .understanding-text {
+    text-align: center;
+  }
+  .understanding .prospering-btns {
+    justify-content: center !important;
+    align-items: center;
+  }
+  .right-understanding {
+    order: 1;
+    margin-bottom: 20px;
+  }
+  .left-understanding {
+    order: 2;
+  }
+  .left-understanding .understanding-title {
+    color: #d99706;
+  }
+  .collection {
+    margin-top: 0;
+  }
+  .collection > p:first-child {
+    font-size: 25px;
+  }
+  .collection-item {
+    margin-top: 25px;
+  }
+  .stories-slider .tes-review {
+    font-size: 20px;
+    text-align: center;
+  }
+  .stories-nav-btn {
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    gap: 50px !important;
+  }
+  .stories-slider .read-more-btn {
+    width: fit-content;
+    margin: 30px auto 70px auto;
+
+    /* margin-top: 100px; */
+  }
+  .discover-block {
+    position: relative;
+    transform: unset;
+    left: 0;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .discover-block .dis-text {
+    color: #fff;
+  }
+  .discover-block .browse-btn {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dis-mobile {
+    display: block;
+  }
+  .dis-web {
+    display: none;
+  }
+  .right-art {
+    padding: 20px;
+  }
+  .article-name {
+    font-size: 20px;
+  }
+  .article-text {
+    font-size: 15px;
+  }
+  .article-name {
+    margin-bottom: 10px;
+  }
+  .right-art .read-more-btn {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .free-consult {
+    text-align: center;
+  }
+  .sign-up .whatApps {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .FAQ {
+    padding: 25px 20px;
+  }
+}
+@media (max-width: 766px) {
+  .article .left-art {
+    /* width: 50% !important; */
+  }
 }
 @media (max-width: 576px) {
   .contact .left {
@@ -1992,6 +2266,127 @@ i:hover .fa-facebook-f::before,
   }
   .custom-wrap {
     padding-top: 0;
+  }
+  .prospering-title p:first-child {
+    font-size: 30px;
+  }
+  .prospering-title p:last-child {
+    font-size: 20px;
+  }
+  .prospering-text {
+    width: 100%;
+  }
+
+  .btn1 {
+    margin-right: 0;
+  }
+  .david-group {
+    margin-top: 30px;
+  }
+  .david-group p {
+    color: #fff;
+  }
+  .david-group .name {
+    text-align: left;
+  }
+  .david-home .block-des {
+    margin-top: 30px;
+  }
+  .understanding {
+    margin-top: 100px;
+  }
+  .understanding-title {
+    text-align: center;
+  }
+  .understanding-text {
+    text-align: center;
+  }
+  .understanding .prospering-btns {
+    justify-content: center !important;
+    align-items: center;
+  }
+  .right-understanding {
+    order: 1;
+    margin-bottom: 20px;
+  }
+  .left-understanding {
+    order: 2;
+  }
+  .left-understanding .understanding-title {
+    color: #d99706;
+  }
+  .collection {
+    margin-top: 0;
+  }
+  .collection > p:first-child {
+    font-size: 25px;
+  }
+  .collection-item {
+    margin-top: 25px;
+  }
+  .stories-slider .tes-review {
+    font-size: 20px;
+    text-align: center;
+  }
+  .stories-nav-btn {
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    gap: 50px !important;
+  }
+  .stories-slider .read-more-btn {
+    width: fit-content;
+    margin: 30px auto 70px auto;
+
+    /* margin-top: 100px; */
+  }
+  .discover-block {
+    position: relative;
+    transform: unset;
+    left: 0;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .discover-block .dis-text {
+    color: #fff;
+  }
+  .discover-block .browse-btn {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dis-mobile {
+    display: block;
+  }
+  .dis-web {
+    display: none;
+  }
+  .right-art {
+    padding: 20px;
+  }
+  .article-name {
+    font-size: 20px;
+  }
+  .article-text {
+    font-size: 15px;
+  }
+  .right-art .read-more-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .free-consult {
+    text-align: center;
+  }
+  .sign-up .whatApps {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .FAQ {
+    padding: 25px 20px;
+  }
+  .article {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 430px) {
